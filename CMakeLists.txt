@@ -113,6 +113,16 @@ target_link_libraries(
      ${Pylon_LIBRARIES}
 )
 
+add_executable(
+        print_camera_info
+        src/${PROJECT_NAME}/print_camera_info.cpp
+)
+
+target_link_libraries(
+        print_camera_info
+        ${Pylon_LIBRARIES}
+)
+
 add_dependencies(
     ${PROJECT_NAME}_node
      ${catkin_EXPORTED_TARGETS}
