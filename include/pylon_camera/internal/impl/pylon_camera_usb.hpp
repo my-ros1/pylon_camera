@@ -111,7 +111,7 @@ bool PylonUSBCamera::applyCamSpecificStartupSettings(const PylonCameraParameter&
         ROS_INFO_STREAM("Cam has gain range: [" << cam_->Gain.GetMin()
                 << " - " << cam_->Gain.GetMax()
                 << "] measured in dB.");
-        ROS_INFO_STREAM("Cam has gammma range: ["
+        ROS_INFO_STREAM("Cam has gamma range: ["
                 << cam_->Gamma.GetMin() << " - "
                 << cam_->Gamma.GetMax() << "].");
         ROS_INFO_STREAM("Cam has pylon auto brightness range: ["

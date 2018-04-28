@@ -76,7 +76,7 @@ bool ros2GenAPI(const std::string& ros_enc, std::string& gen_api_enc)
     */
     else
     {
-        /* No gen-api pendant existant for following ROS-encodings:
+        /* No gen-api pendant existent for following ROS-encodings:
          * - sensor_msgs::image_encodings::MONO16
          * - sensor_msgs::image_encodings::BGRA8
          * - sensor_msgs::image_encodings::BGR16
